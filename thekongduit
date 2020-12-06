@@ -1,0 +1,6 @@
+mkdir <thekongduit.ar>
+cd <thekongduit.ar>
+git init
+heroku login
+heroku create <thekongduit.ar>
+heroku buildpacks:set heroku/nodejs
